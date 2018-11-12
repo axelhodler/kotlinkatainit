@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test
 class InitTests {
 
     @Test
-    fun `fails`() {
-        assertThat(false).isTrue()
+    fun `passes`() {
+        assertThat(true).isTrue()
     }
 
 }
